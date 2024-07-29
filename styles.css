@@ -3,25 +3,11 @@
     width: 200px;
     height: 200px;
     display: grid;
-    grid-template-areas: 
-    "a b"
-    "c d";
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    
 }
 .container{
     background-color: aqua;
-    border: 2px solid black;
-
+    border: 1px solid black;
 }
-#item1{
-    grid-area: a;
-}
-#item2{
-    grid-area: b;
-}
-#item3{
-    grid-area: c;
-}
-#item4{
-    grid-area: d;
-}
-/* Your CSS Code here. */
