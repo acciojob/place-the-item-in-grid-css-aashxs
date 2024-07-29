@@ -1,13 +1,18 @@
-.main-container{
-    box-sizing: border-box;
-    width: 200px;
-    height: 200px;
-    display: grid;
-    grid-template-columns: 100px 100px;
-    grid-template-rows: 100px 100px;
-    
+/* Style the .holder class to be a grid container */
+.holder {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr); /* Two rows, equal height */
+  grid-template-columns: repeat(2, 1fr); /* Two columns, equal width */
+  width: 200px;
+  height: 200px;
+  gap: 0; /* No gap between grid items */
 }
-.container{
-    background-color: aqua;
-    border: 1px solid black;
+
+/* Optional: Style individual grid items for better visibility */
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+  border: 1px solid #ccc;
 }
