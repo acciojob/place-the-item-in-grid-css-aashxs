@@ -7,5 +7,9 @@
   height: 200px;
   
 }
+.item{
+	background-color:grey;
+	border:1px solid black;
+}
 
 
