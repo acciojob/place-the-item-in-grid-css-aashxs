@@ -8,11 +8,4 @@
   gap: 0; /* No gap between grid items */
 }
 
-/* Optional: Style individual grid items for better visibility */
-.item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #ddd;
-  border: 1px solid #ccc;
-}
+
