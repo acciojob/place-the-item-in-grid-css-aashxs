@@ -1,15 +1,12 @@
 /* Style the .holder class to be a grid container */
 .holder {
   display: grid;
+	 width: 200px;
+  height: 200px;
   grid-template-rows: repeat(2, 100px); /* Two rows, equal height */
   grid-template-columns: repeat(2, 100px); /* Two columns, equal width */
-  width: 200px;
-  height: 200px;
   
-}
-.item{
-	background-color:grey;
-	border:1px solid black;
+  
 }
 
 
