@@ -5,7 +5,7 @@
   grid-template-columns: repeat(2, 100px); /* Two columns, equal width */
   width: 200px;
   height: 200px;
-  gap: 0; /* No gap between grid items */
+  
 }
 
 
