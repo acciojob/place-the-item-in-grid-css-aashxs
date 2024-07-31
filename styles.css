@@ -1,12 +1,13 @@
-/* Style the .holder class to be a grid container */
 .holder {
   display: grid;
-	 width: 200px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 200px;
   height: 200px;
-  grid-template-rows: repeat(2, 100px); /* Two rows, equal height */
-  grid-template-columns: repeat(2, 100px); /* Two columns, equal width */
-  
-  
+}
+
+.item {
+  border: 1px solid black; /* Optional: To visualize the grid items */
 }
 
 
